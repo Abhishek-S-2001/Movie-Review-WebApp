@@ -69,11 +69,11 @@ const HomePage: React.FC = () => {
 
         <div className='container__mainscreen'>
             <text className='mainscreen__header'>The best movie review sites!</text>
-            {/* Search Box */}
+            {/* Search Box
             <div className="search-box">
                 <input type="text" placeholder="Search for your favourite Movie" className="search-input" />
                 <button className="search-btn">Search</button>
-            </div>
+            </div> */}
 
             <div className='movie__container'>
                 <div className="cardContainer">

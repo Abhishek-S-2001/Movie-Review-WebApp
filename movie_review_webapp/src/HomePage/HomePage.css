@@ -38,7 +38,7 @@
 
 .container__mainscreen{
     display: grid;
-    grid-template-rows: 40px 40px;
+    grid-template-rows: 40px ;
     grid-row-gap: 2px;
     position: absolute;
     top: 65px;
