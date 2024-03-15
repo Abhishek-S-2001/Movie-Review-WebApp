@@ -1,0 +1,3 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/movie_review_webapp/node_modules
+/movie_review_api/node_modules

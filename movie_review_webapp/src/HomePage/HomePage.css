@@ -1,0 +1,154 @@
+.container{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container__topbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background: #E3E8ED;
+}
+.header{
+    margin-left: 60px;
+    color: #293845;
+}
+.btn_add__movie{
+    position: absolute;
+    right: 230px;
+    width: 150px;
+    height: 30px;
+    color: #6558f5;
+    border: 2px solid #B5B4EF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_add__review{
+    position: absolute;
+    right: 60px;
+    width: 150px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #6558f5;
+    border: 2px solid #B5B4EF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container__mainscreen{
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-row-gap: 2px;
+    position: absolute;
+    top: 65px;
+    bottom: 65px;
+    background: #FFFFFF;
+    width: 100%;
+}
+.mainscreen__header{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #293845;
+}
+.search-box {
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+  .search-input {
+    padding: 8px;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    color: #293845;
+    border: 2px solid #6558f5;
+  }
+  .search-btn {
+    padding: 8px 10px;
+    margin-left: 10px;
+    background-color: #6558f5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .movie__container{
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    position: relative;
+  }
+  .movie__container::-webkit-scrollbar { 
+    scroll-behavior: auto;
+    display: none;
+  }
+
+.movie__link,
+.movie__link:hover,
+.movie__link:focus,
+.movie__link:active {
+  text-decoration: none;
+}
+  .cardContainer {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: auto;
+    position: absolute;
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+    top: 0;
+    left: 0;
+  }
+  .card {
+    width: 100%;
+    height: 120px;
+    background-color: #E0DEFD;
+  }
+  .content__container {
+    display: grid;
+    grid-row: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+  }
+  .movie__name{
+    margin: 5px;
+    color: #293845;
+  }
+  .movie__release{
+    margin: 5px;
+    color: #293845;
+    font-style: italic;
+  }
+  .movie__rating{
+    margin: 5px;
+    color: #293845;
+    font-weight: bold;
+  }
+
+
+
+.container__bottombar{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background: #CED8E0;
+}
+.footer__copyright{
+    margin-left: 60px;
+    color: white;
+}
+.footer__instagram{
+    position: absolute;
+    right: 60px;
+    color: white;
+}
