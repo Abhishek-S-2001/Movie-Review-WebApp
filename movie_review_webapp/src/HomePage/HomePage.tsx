@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
     useEffect(() => {
         const fetchMovies = async () => {
           try {
-            const response = await axios.get('http://localhost:8080/movies/all');
+            const response = await axios.get('https://movie-review-web-app-woad.vercel.app/movies/all');
             console.log(response)
             setMovies(response.data.movies);
           } catch (error) {

@@ -22,7 +22,7 @@ const AddMovie: React.FC<AddMovieProps> = ({ onClose, onAddMovie }) => {
     const handleSubmit = async(e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8080/movies/add', {
+            const response = await axios.post('https://movie-review-web-app-woad.vercel.app/movies/add', {
                 mname: movieName,
                 release: releaseDate,
                 mrating: 9

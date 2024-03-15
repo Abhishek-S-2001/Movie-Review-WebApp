@@ -21,7 +21,7 @@ const MovieDetail: React.FC = () => {
     useEffect(() => {
         const fetchReviews = async () => {
           try {
-            const response = await axios.get(`http://localhost:8080/reviews/${movieId.movieId}/reviews`);
+            const response = await axios.get(`https://movie-review-web-app-woad.vercel.app/reviews/${movieId.movieId}/reviews`);
             setReviews(response.data.reviews);
             setMovieName(response.data.mname);
           } catch (error) {

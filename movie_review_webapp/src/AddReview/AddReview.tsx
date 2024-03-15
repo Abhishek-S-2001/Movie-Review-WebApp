@@ -25,7 +25,7 @@ const AddReview: React.FC<AddReviewProps> = ({ onClose, onAddReview }) => {
     useEffect(() => {
         const fetchMovies = async () => {
           try {
-            const response = await axios.get('http://localhost:8080/movies/all');
+            const response = await axios.get('https://movie-review-web-app-woad.vercel.app/movies/all');
             console.log(response)
             setMovies(response.data.movies);
           } catch (error) {
@@ -56,7 +56,7 @@ const AddReview: React.FC<AddReviewProps> = ({ onClose, onAddReview }) => {
     const handleSubmit = async(e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`http://localhost:8080/reviews/${selectedMovie}/reviews/add`, {
+            const response = await axios.post(`https://movie-review-web-app-woad.vercel.app/reviews/${selectedMovie}/reviews/add`, {
                 rname: reviewName,
                 rrating: rating,
                 review: reviewText
