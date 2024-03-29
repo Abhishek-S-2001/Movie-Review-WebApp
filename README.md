@@ -14,8 +14,6 @@ This repository includes both directory for both frontend and backend.
 
 - - Frontend:
 - React
-- Redux
-- Bootstrap
 - Axios (for HTTP requests)
 
 - - Backend:
