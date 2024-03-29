@@ -2,6 +2,9 @@
 Created a Full stack project and deployed on vercel. 
 This repository includes both directory for both frontend and backend.
 
+- Backend API: https://movie-review-web-app-woad.vercel.app/
+- Website: https://movie-review-webapp.vercel.app/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,6 +18,9 @@ This repository includes both directory for both frontend and backend.
 - - Frontend:
 - React
 - Axios (for HTTP requests)
+- HTML
+- CSS
+- Typescript
 
 - - Backend:
 - Node.js
